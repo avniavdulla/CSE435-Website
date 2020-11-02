@@ -1,0 +1,99 @@
+html, body {
+    margin: 0 10% 0 10%;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Serif;
+    background-image: url("images/beaumont_tower.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+div.menu{
+    min-width: 50em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0em;
+    padding: 0em;
+    background-color: #1c1c1c;
+}
+
+div iframe{
+    width: 100%;
+    height: 50em;
+}
+
+div.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div.menu a:hover {
+    color: forestgreen;
+}
+
+#currPage {
+    padding-left: .2em;
+    padding-right: .2em;
+    border-radius: .2em;
+    background-color: darkgreen;
+}
+
+div.box {
+    min-width: 50em;
+    display: flex;
+    flex-direction: column;
+    margin: 0em;
+    padding: .2em;
+    flex-grow: 1;
+    background-color: lightgray;
+}
+
+div.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+div.profile {
+    display: inline-block;
+    width: 20em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 2.5em;
+    background-color: lightgray;
+}
+
+div.description {
+    margin: 0em .5em 0em .5em;
+    padding: 1em;
+    border-radius: 2.5em;
+    background-color: lightgray;
+}
+
+div > img {
+    height:200px;
+    width: auto;
+    border-radius: 50%;
+    border: 10px solid darkgreen;
+}
+
+div > table, th, td {
+    width: 75%;
+    border: 2px solid darkgreen;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: .5em;
+}
+
+th {
+    font-size: 1.25em;
+    text-align: left;
+}
+tr:hover {
+    background-color: darkgrey;
+}

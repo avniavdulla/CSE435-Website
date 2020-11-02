@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9683d15f-6352-442f-bf45-c7952d86c0a1" name="webdev" url="http://black.cse.msu.edu">
+        <fileTransfer host="black.cse.msu.edu" port="22" rootFolder="/user/avdullaa/classweb/HFD2Website" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
