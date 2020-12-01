@@ -7,7 +7,6 @@ html, body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: repeat-y;
-    text-align: center;
 }
 
 div.menu{
@@ -82,7 +81,8 @@ div.prototype-state {
     padding: 1em;
     border-radius: 2.5em;
     display: inline-block;
-    align-content: center;
+    text-align: center;
+
 }   div.prototype-state > img {
         width: 40em;
         height: auto;
